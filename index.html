@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejercicios Unidad 1 Laboratoria</title>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Acme|Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/lms_u1.css">
+</head>
+
+<body>
+  <div class="partes">
+    <hr>
+    <h3>Edad en Segundos</h3>
+    <h4>Ingresa tu edad en años y conoce cuantos segundos has estado en este planeta</h4>
+    <label for="yrsAge">Ingresa tu edad en años</label><br />
+    <input type="text" id="yrsAge"><br />
+    <label for="yrsSec">Estos son los segundos que has vivido hasta tu más reciente cumpleaños</label><br />
+    <input type="text" id="yrsSec" readonly><br />
+    <button class="buttoncito" onclick="segundos()">Calcular los segundos</button><br />
+  </div>
+
+  <div class="partes">
+    <hr>
+    <h3>Convertidor de Temperatura</h3>
+    <h4>Quieres saber cuántos grados Celsius son Farenheit y viceversa?</h4>
+    <label for="tF">Ingresa la temperatura en grados Farenheit</label><br />
+    <input type="text" id="tF"><br />
+    <label for="tC">Esta es la equivalencia de Temperatura en Grados Centígrados</label><br />
+    <input type="text" id="tC" readonly><br />
+    <button class="buttoncito" onclick="centigrados()">Equivalencias de Temperatura</button><br />
+    <hr>
+    <label for="tCent">Ingresa la temperatura en grados Centígrados</label><br />
+    <input type="text" id="tCent"><br />
+    <label for="tFar">Esta es la equivalencia de Temperatura en Grados Farenheit</label><br />
+    <input type="text" id="tFar" readonly><br />
+    <button class="buttoncito" onclick="farenheit()">Equivalencias de Temperatura</button><br />
+
+  </div>
+  <hr>
+  <div class="partes">
+    <h3>Calculemos ganancias</h3>
+    <h4>Cuánta ganancia te puede dejar ese negocio que tienes en mente?</h4>
+    <label for="ingresos">Indica tus ingresos</label>
+    <input type="text" id="ingresos"><br />
+    <label for="costos">¿Cuáles son los costos del negocio?</label>
+    <input type="text" id="costos"><br />
+    <label for="impuestos">¿Qué porcentaje de impuestos debes pagar?</label>
+    <input type="text" id="impuestos"><br />
+    <label for="ganancias">Estas son tus ganancias</label>
+    <input type="text" id="ganancias" readonly><br />
+    <button class="buttoncito" onclick="limpiar()">Comenzar de Nuevo</button>
+    <button class="buttoncito" onclick="ganancias()">Calcular mis ganancias</button><br />
+
+  </div>
+
+  <hr>
+  <div class="partes">
+    <div id="iniciales"></div>
+    <h3>Con qué iniciales bordamos el pañuelo?</h3><br />
+    <label for="nya">Ingresa un nombre y apellido separados por / </label><br />
+    <input type="text" id="nya">
+    <h6> Ejemplo: Carlo/Magno </h6>
+
+    <button id ="verIniciales" class="buttoncito" onclick="dameIniciales()">A ver esas iniciales</button><br />
+  </div>
+
+  <script src="js/lms_u1.js"></script>
+
+</body>
+
+</html>

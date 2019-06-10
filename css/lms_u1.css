@@ -1,0 +1,79 @@
+/*GOOGLE FONTS
+
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Abril Fatface', cursive;
+
+    font-family: 'Acme', sans-serif;
+
+*/
+
+/*
+-----COLOR PALLETE-----
+Celestial blue: #3e92cc, rgba(62, 146, 204, 1)
+Lapis lazuli: #2a628f, rgba(42, 98, 143, 1)
+Dark slate gray: #2f4858, rgba(47, 72, 88, 1)
+Saffron : #f6ae2d, rgba(246, 174, 45, 1)
+Giants Orange: #f26419,  rgba(242, 100, 25, 1)
+
+
+*/
+
+body{
+  background-color:#2f4858;
+  font-family: 'Acme', sans-serif;
+  color: #f6ae2d;
+  font-size: 1.5em;
+}
+
+hr{
+  border-top: 2px solid #f26419;
+}
+
+.buttoncito{
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  font-size: 1em;
+  color : #2f4858;
+  margin: 3%;
+  background-color:rgba(62, 146, 204, 1);
+  padding: 0.5%;
+  border: 0;
+}
+
+input{
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  background-color: #3e92cc;
+  font-size: 0.7em;
+  color:  #2f4858;
+  margin: 1%;
+  border: 0;
+}
+
+
+.invisible{
+  display: none;
+}
+.partes{
+text-align: center;
+}
+
+#iniciales{
+
+  position: fixed;
+  z-index : 1;
+  left: 70%;
+  top: 50%;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 1em;
+  text-align: center;
+  display: flex;
+  color: #2f4858;
+  justify-content:flex-start;
+  background-color: white;
+  width: 20%;
+  height : 10%;
+  margin-top: 10%;
+  padding: 2%;
+}
